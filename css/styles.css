@@ -18,6 +18,11 @@ html {
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -40,7 +45,7 @@ picture {
 main {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  height: 100%;
 }
 
 h2,
